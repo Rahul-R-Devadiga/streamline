@@ -85,7 +85,7 @@ const commentsData = [
 ];
 
 const Comment = ({ data }) => {
-  const { name, comment, replies } = data;
+  const { name, comment } = data;
   return (
     <div className="flex shadow-sm bg-gray-100 p-2 rounded-lg m-2">
       <img
